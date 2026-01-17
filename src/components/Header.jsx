@@ -19,7 +19,7 @@ const Header = () => {
 
             <a data-aos="fade-down"
      data-aos-easing="linear"
-     data-aos-duration="1000" className='hover:bg-green-700 rounded-full hover:bg-opacity-50 px-2 ' href="#">About</a>
+     data-aos-duration="1000" className='hover:bg-green-700 rounded-full hover:bg-opacity-50 px-2 ' href="src\components\About.jsx">About</a>
 
 
             <a data-aos="fade-down"
