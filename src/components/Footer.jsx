@@ -15,6 +15,11 @@ const Foot = () => {
            I'm Arun, A Full-stack developer <br />
            freelancer& problem solver. <br />
            Thanks FOr checking out my website
+           <div className='flex'>
+        <img src="" alt="linkedin" />
+        <img src="" alt="Github" />
+        <img src="" alt="Insta" />
+    </div>
 
 
         </div>
@@ -42,22 +47,39 @@ const Foot = () => {
                 <a href="">Links</a><br/>
                 <a href="">RSS</a><br/>
             </div>
+            
 
         </div>
        
 
     </div>
-     <footer className=' flex  flex-row items-center justify-between px-10 py-10'>
-    <div>@2025 Bala Arun Pasala. <br /> All rights reserved  <br /> Privacy Policy Terms&Conditions
+     <footer className="w-full bg-black text-gray-400 px-10 py-6">
+  <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
+
+    {/* LEFT */}
+    <p className="text-sm">
+      © 2026 <span className="text-white font-medium">Bala Arun Pasala</span>. All rights reserved
+    </p>
+
+    {/* RIGHT */}
+    <div className="flex gap-6 text-sm">
+      <a
+        href="/privacy"
+        className="hover:text-white transition"
+      >
+        Privacy Policy
+      </a>
+      <a
+        href="/terms"
+        className="hover:text-white transition"
+      >
+        Terms of Use
+      </a>
     </div>
 
+  </div>
+</footer>
 
-     <div className='flex'>
-        <img src="" alt="linkedin" />
-        <img src="" alt="Github" />
-        <img src="" alt="Insta" />
-    </div>
-    </footer>
     
     
     </>
