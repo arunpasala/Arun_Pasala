@@ -1,12 +1,11 @@
 import React from 'react'
 
-const Education = () => {
+const BookCall = () => {
   return (
     <div>
-      
       
     </div>
   )
 }
 
-export default Education
+export default BookCall
