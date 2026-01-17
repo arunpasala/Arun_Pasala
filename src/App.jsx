@@ -5,7 +5,7 @@ import { useEffect } from "react";
 import Header from './components/Header';
 import Hero from './components/Hero';
 import About from './components/About';
-import Foot from './components/Foot';
+import Footer from './components/Footer';
 
 
 export default function App() {
@@ -22,7 +22,7 @@ export default function App() {
     <Header/>
     <Hero/>
     <About/>
-    <Foot/>
+    <Footer/>
     
    
 
