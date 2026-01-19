@@ -6,6 +6,7 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import About from './components/About';
 import Footer from './components/Footer';
+import Home from './components/Home';
 
 
 export default function App() {
@@ -20,13 +21,13 @@ export default function App() {
   return (
     <>
     <Header/>
+    <Home/>
     <Hero/>
     <About/>
+ 
     <Footer/>
     
-   
 
-    
     </>
   )
 }
